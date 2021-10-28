@@ -1,0 +1,153 @@
+.birinchi{
+    border: 2px solid black;
+    border-radius: 13px;
+}
+
+.ikkinchi{
+    border: 3px solid red;
+    border-radius: 15px;
+    background-color: rgb(14, 162, 248);
+}
+
+.uchinchi{
+    border-left: 10px solid green;
+    background-color: azure;
+}
+
+.tortinchi{
+    
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.beshinchi{
+    text-shadow: -4px 2px 2px;
+    color: blue;
+}
+
+.oltinchi{
+    text-shadow: -3px -3px 2px green;
+}
+
+.yettinchi{
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px;
+}
+
+.sakkizinchi{
+    border: 1px solid black;
+    box-shadow: -2px -4px 2px green;
+}
+
+.toqqizinchi{
+    border: 1px solid black;
+    box-shadow: 2px 4px 2px blue;
+}
+
+@keyframes neymar {
+    0%{
+        left: 0px;
+    }
+   
+    100%{
+        left: 400px;
+    }
+}
+.oninchi {
+    border: 1px solid black;
+    background-color: azure;
+    width: 150px;
+    height: 150px;
+   
+    position: relative;
+    
+}
+.oninchi:active{
+    animation-name: neymar;
+    animation-duration: 3s;
+    position: relative;
+}
+@keyframes messi {
+    0%{
+        transform: rotate(0deg)
+    }
+    50%{
+        transform: rotate(360deg)
+    }
+   
+    100%{
+        transform: rotate(-360deg)
+    }
+  
+}
+.onbirinchi{
+    border: 1px solid black;
+    background-color: azure;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.onbirinchi:active{
+    animation-name: messi;
+    animation-duration: 4s;
+    
+}
+@keyframes mbappe {
+    0%{
+        background-color: azure;
+        color: black;
+    }
+    25%{
+        background-color: blue;
+        color: yellow;
+    }
+    50%{
+        background-color: yellow;
+        color: blue;
+    }
+    75%{
+        background-color: green;
+        color: red;
+    }
+    100%{
+        background-color: red;
+        color: gold;
+    }
+}
+
+.onikki{
+    border: 1px solid black;
+    background-color: azure;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.onikki:active{
+    animation-name: mbappe;
+    animation-duration: 4s;
+}
+.onuch{
+    border: 1px solid black;
+    background-color: azure;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.onuch:active{
+    animation-name: neymar, messi, mbappe;
+    animation-duration: 8s;
+}
+
+.card{
+    width: 450px;
+    height: 130px;
+}
+.card_head{
+    border: 1px solid black;
+    
+    text-align: center;
+}
+.card_body{
+    border: 1px solid black;
+    background-color: aqua;
+    padding: 20px;
+}
